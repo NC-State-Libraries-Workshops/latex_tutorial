@@ -5,6 +5,10 @@
   vertical-align: top;
 }
 
+.reveal div .two-col.small li {
+  font-size: 24px;
+}
+
 /*.reveal div .two-col ul {*/
 /*  margin-top: 20px*/
 /*}*/

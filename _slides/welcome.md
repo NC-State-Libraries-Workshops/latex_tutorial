@@ -1,12 +1,12 @@
 ---
 
-order: 1
+order: 0
 
 ---
 
-## Welcome
+## Learning LaTeX
 
-Welcome to Apprentice and the jekyll-reveal.js example presentation.
+Welcome. We will be starting soon. Please log into https://overleaf.com
 
 
 

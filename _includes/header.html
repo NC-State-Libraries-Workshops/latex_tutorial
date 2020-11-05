@@ -13,7 +13,7 @@
   <div class="nav-bar">
     <ul>
       {% assign split_path = page.url | split: "/" %}
-      <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
+      <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
       {% if site.units.size > 0 %}
         {% assign sorted_units = site.units  | where: "tutorial", true | sort: "order" %}
         <li {% if split_path[1] == "units" %}class="active"{% endif %}><a href="{{ sorted_units[0].url | prepend: site.baseurl }}">Tutorial</a></li>

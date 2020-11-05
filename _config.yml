@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 
 
-title: NCSU Apprentice             # Name of the workshop
+title: Learning Latex             # Name of the workshop
 
 description: |
-  This is just to make changes. jRever back as soon as possible.
+  A tutorial for learning latex, primarily using Overleaf as an editor.
 
 
 # Author information 

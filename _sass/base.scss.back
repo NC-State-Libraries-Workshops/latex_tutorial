@@ -23,14 +23,6 @@ header {
     }
 }
 
-blockquote {
-    background-color: #ccd;
-}
-
-code.highlighter-rouge {
-    background-color: #ccf;
-}
-
 
 a {
     color: $darker-grey;
@@ -301,41 +293,4 @@ div.tabcontrol.body.fullborder {
 
 div.tabcontrol.body p:last-child, div.tabcontrol.body ul:last-child {
     margin-bottom: 0;
-}
-
-.floated {
-    float:left;
-}
-
-.centered {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 30%;
-  padding: 5px;
-  
-  img {
-      width: 125%;
-  }
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 5px 10px;
 }

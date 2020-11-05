@@ -73,7 +73,7 @@ and arguments in curly braces.
 ## Sections
 
 LaTeX forces users to structure their documents, then formats the document based on the 
-strucutre. You've already been introduced to the `\section{}` so we'll start there. By 
+structure. You've already been introduced to the `\section{}` so we'll start there. By 
 default the section is numbered and requires a setion title. If you don't supply a 
 section title, it will be blank which isn't usually very useful. There are also
 `\subsection{}` and `subsubsection{}``. Below shows a portion of your document.
